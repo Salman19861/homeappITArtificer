@@ -1,0 +1,8 @@
+export {default as AboveFooter } from './AboveFooter'
+export {default as AboveNavbar} from './AboveNavbar'
+export {default as Footer} from './Footer'
+export {default as Navbar} from './Navbar'
+export {default as Partners} from './Partners'
+export {default as Posts} from './Posts'
+export {default as Services} from './Services'
+export {default as SlideShow} from './SlideShow'

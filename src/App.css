@@ -1,0 +1,151 @@
+/* Dropdown Button */
+.dropbtn {
+  background-color: 'white';
+  color: '#686868';
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: 'white';
+  min-width: 300px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white;color: '#1A2D51';}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;background-color: white;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:'white';}
+
+
+
+.slideshow{
+  background-image: url("../src/static/images/slideshowImage.jpg");
+  height: 580px;
+  color:white;
+  text-align: center;
+  margin-top: 30px;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.posts1{
+  background-image: url("../src/static/images/posts1.png");
+  height: 200px;
+  color:white;
+  text-align: left;
+  margin-top: 30px;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.posts2{
+  background-image: url("../src/static/images/posts2.jpg");
+  height: 200px;
+  color:white;
+  text-align: left;
+  margin-top: 30px;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+.posts3{
+  background-image: url("../src/static/images/posts3.jpg");
+  height: 200px;
+  color:white;
+  text-align: left;
+  margin-top: 30px;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+.posts4{
+  background-image: url("../src/static/images/posts4.png");
+  height: 200px;
+  color:white;
+  text-align: left;
+  margin-top: 30px;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.skyplink{
+  font-size: 15px;
+  width: 390px;
+  height: 46px;
+  background-color: '#1A2D51';
+}
+
+.skyplink:hover{
+  background-color: white;
+  border: 1px solid '#1A2D51';
+}
+
+.btn-back_to_top {
+  position: fixed;
+  bottom: 10px;
+  right: 14px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #52565c;
+  color: #fff;
+  visibility: hidden;
+  cursor: pointer;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.4);
+  z-index: 99;
+}
+
+
+.aboveF{
+  color: white;
+  margin: 7px;
+  padding: 10px;
+}
+.aboveFP{
+  color: #6e6e6e;
+  margin: 7px;
+  padding: 10px;
+}
+
+body{
+  overflow-x: hidden;
+}
+.seviceBox{
+  height: 68px;
+}
+.seviceBox:hover{
+  transition: 0.5;
+}
+
+.readmore{
+  text-decoration: none;
+  color:#1A2D51;
+}
+.pOfService{
+color: #6E6E6E;
+} 
